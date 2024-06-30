@@ -1,12 +1,3 @@
-(**********************************************************************)
-(* This is part of MK_Str1, it is distributed under the terms of the  *)
-(*          GNU Lesser General Public License version 3               *)
-(*             (see file LICENSE for more details)                    *)
-(*                                                                    *)
-(*                     Copyright 2023-2028                            *)
-(*    Dakai Guo, Si Chen, Guowei Dou, Shukun Leng and Wensheng Yu     *)
-(**********************************************************************)
-
 (** MK_Structure1 *)
 
 (* MK_Definitions_Axioms *)
