@@ -1,12 +1,3 @@
-(**********************************************************************)
-(*  This is part of Pre_ML, it is distributed under the terms of the  *)
-(*          GNU Lesser General Public License version 3               *)
-(*             (see file LICENSE for more details)                    *)
-(*                                                                    *)
-(*                     Copyright 2023-2028                            *)
-(*  Si Chen, Guowei Dou, Yaoshun Fu, Shukun Leng and Wensheng Yu      *)
-(**********************************************************************)
-
 (** Pre_MK_Logic *)
 
 (* 引进记号 *)
