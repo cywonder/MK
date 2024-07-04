@@ -22,15 +22,11 @@ Theorem Theorem4 : forall (x y: Class) (z: Class),
   z∈x \/ z∈y <-> z ∈ (x ∪ y).
 Proof.
   intros. split.
-  - intros. destruct H.
-    + apply AxiomII. split.
-      * unfold Ensemble. exists x. apply H.
-      * left. apply H.
-    + apply AxiomII. split.
-      * unfold Ensemble. exists y. apply H. 
-      * right. apply H.
-  - intros. apply AxiomII in H.
-    apply H.
+  - intros. apply AxiomII. split.
+    + destruct H. unfold Ensemble. exists x. apply
+      H. exists y. apply H.
+    + apply H.
+  - intros. apply AxiomII in H. apply H.
 Qed.
 
 Theorem Theorem4' : forall x y z, z∈x /\ z∈y <-> z∈(x∩y).
